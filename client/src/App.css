@@ -1,0 +1,15 @@
+@import url("https://cdn.syncfusion.com/ej2/bootstrap5.css");
+.exceltb{
+  width: 90%;
+  margin-left:5%;
+  margin-top: 10%;
+  height: 80%;
+}
+
+.main{
+  width: 85%;
+  margin-left: 7%;
+  margin-top: 10%;
+  height: auto;
+  flex: none;
+}

@@ -1,0 +1,45 @@
+@import url("https://cdn.syncfusion.com/ej2/bootstrap5.css"); 
+
+ table, th{
+    font-size: medium;
+    table-layout: fixed;
+  }
+  
+  .btnexport{
+    margin-right: 90%;
+    color:black;
+    width: auto;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:azure;
+    cursor: default;
+    text-decoration: none;
+  }
+  
+  .btnexport:hover{
+    cursor: pointer;
+    background-color:greenyellow;
+  }
+  
+  .csvbtn{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .container-fluid{
+    display:flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding: auto;
+    margin-right:7%;
+   justify-content: space-around;
+  
+  }
+  @media (max-width: 800px) {
+    .container-fluid {
+      flex-direction: column;
+      
+    }
+  }
+  
+  
